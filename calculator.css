@@ -1,0 +1,133 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #85a392;
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+.calculeitor{
+    background: linear-gradient(#30475e,#679b9b);
+    display: flex;
+    height: 24rem;
+    width: 17rem;
+    border: 4px solid #ffa41b;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 7px 7px 7px 7px;
+    box-shadow: 1px 3px 10px 3px rgba(0, 0, 0, 0.61);
+}
+.screen{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: 50% 50%;
+    margin-bottom: auto;
+    background-color: rgba(41, 36, 36, 0.9);
+    height: 4rem;
+    width: 1;
+    border: 1px solid black;
+    border-radius: 15px ;
+    margin: 5px 5px 10px 5px;
+}
+
+.screen-num1{
+    padding-top: 3px;
+    grid-column: 2;
+    grid-row: 2;
+    cursor: default;
+    text-align: right;
+    color: wheat;
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+    padding-right: 5px;
+}
+.screen-num2{
+    padding-top: 3px;
+    grid-column: 2;
+    grid-row: 1;
+    cursor: default;
+    text-align: right;
+    color: wheat;
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+    padding-right: 5px;
+}
+.screen-sign{
+    padding-left: 4px;
+    text-align: center;
+    grid-row: 2;
+    cursor: default;
+    text-align: left;
+    color: #ffa41b;
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+    padding-right: 5px;
+}
+button{
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    display: block;
+    outline: none;
+}
+
+.buttons{
+    
+    color: transparent;
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-rows: 60px 25% 25% 25%;
+    grid-template-columns: 25% 25% 25% 25%;
+    
+}
+.buttons :hover{
+    cursor: pointer;
+    color: greenyellow;
+}
+.buttons__number{
+    margin-top: 4px;
+    margin-right: 4px;
+    grid-row: 2 / span 4;
+    grid-column: 1 / span 3;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3% ;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+.buttons__number-dot{
+    grid-column: 3;
+    font-size: 50px;
+}
+.buttons__number-zero{
+    grid-column: 1/ span 2;
+}
+.buttons__sign{
+    background-color: transparent;
+    color: tomato;
+    grid-row: 1;
+    grid-column: 1 / 5;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: rgba(41, 36, 36, 0.5);
+
+}
+.buttons__sing2{
+    grid-row: 2 / span 4;
+    grid-column: 4;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    background-color: rgba(41, 36, 36, 0.5);
+
+}
+
+button:hover:active{
+    background: linear-gradient(#222831,#30475e);
+    color: goldenrod;
+}
