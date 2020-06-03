@@ -11,7 +11,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-.calculeitor{
+.calculator{
     background: linear-gradient(#30475e,#679b9b);
     display: flex;
     height: 24rem;
@@ -57,17 +57,7 @@ body{
     font-family: 'Anton', sans-serif;
     padding-right: 5px;
 }
-.screen-sign{
-    padding-left: 4px;
-    text-align: center;
-    grid-row: 2;
-    cursor: default;
-    text-align: left;
-    color: #ffa41b;
-    font-size: 20px;
-    font-family: 'Anton', sans-serif;
-    padding-right: 5px;
-}
+
 button{
     background-color: transparent;
     border: 1px solid black;
