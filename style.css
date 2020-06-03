@@ -82,7 +82,7 @@ button{
     cursor: pointer;
     color: greenyellow;
 }
-.buttons__number{
+.buttons-number{
     margin-top: 4px;
     margin-right: 4px;
     grid-row: 2 / span 4;
@@ -91,14 +91,14 @@ button{
     grid-template-columns: 33.3% 33.3% 33.3% ;
     grid-template-rows: 25% 25% 25% 25%;
 }
-.buttons__number-dot{
+.buttons-dot{
     grid-column: 3;
     font-size: 50px;
 }
-.buttons__number-zero{
+.buttons-zero{
     grid-column: 1/ span 2;
 }
-.buttons__sign{
+.buttons-sign{
     background-color: transparent;
     color: tomato;
     grid-row: 1;
@@ -108,7 +108,7 @@ button{
     background-color: rgba(41, 36, 36, 0.5);
 
 }
-.buttons__sing2{
+.buttons-sing2{
     grid-row: 2 / span 4;
     grid-column: 4;
     display: grid;
